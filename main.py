@@ -7,9 +7,9 @@ deck = []
 def BuildDeck():
     deck = []
     for i in range(len(card)):
-        for ind in range(len(suit))
+        for ind in range(len(suit)):
             deck.append(card[i], " of ", suit[ind])
-    for i in range(len(deck))
+    for i in range(len(deck)):
         print(deck[i],"\n")
     return deck
 

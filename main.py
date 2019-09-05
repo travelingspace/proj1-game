@@ -33,7 +33,7 @@ while keep_playing == "Y" or keep_playing == "y":
         yourCard = deck[0]
         dealerCard = deck[1]
 
-        print("Your card is:", yourCard, "\n\")
+        print("Your card is:", yourCard, "\n")
         time.sleep(2)
         print("Dealers card is: ", dealerCard, "\n")
         time.sleep(3)
